@@ -23,7 +23,7 @@ function asignacionDeValoresRestar(){
 
 function asignacionDeValoresMultiplicacion(){
 
-    let x = 0;
+    let x = 5;
     let y = 0;
     x*= 7;
 
@@ -32,9 +32,9 @@ function asignacionDeValoresMultiplicacion(){
 
 function asignacionDeValoresResto(){
 
-    let x = 0;
+    let x = 5;
     let y = 0;
-	x %= 2;
+	x %= 4;
     return x === 1;
 }
 
