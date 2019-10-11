@@ -65,7 +65,7 @@ function compararcionMayorIgual(){
 
 function incremento(){
 
-    let x = 0;
+    let x = 4;
     x++;
     return x === 5;
 }
@@ -73,7 +73,7 @@ function incremento(){
 
 function decremento(){
 
-    let x = 0;
+    let x = 6;
     x--;
     return x === 5;
 }

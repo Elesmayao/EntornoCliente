@@ -15,7 +15,7 @@ function concatenarCadenas(){
 
 function operadorTernario(){
 
-    let x = 0;
+    let x = 1;
     let y = 0;
 
     let resultado = (x>y) ? true:false;
@@ -35,15 +35,15 @@ function deleteArray(){
 
 function crearArray(){
 
-	var objeto = new Objeto();
+	var objeto = new Object();
 	var tiempo = new Date();
 
-    let x = [ 1.5 , 'ALUMNOS', tiempo, 7 , objeto , undefined , null ];
+    let x = [ 1.5 , 'ALUMNOS', tiempo, 7 , objeto, undefined , null ];
 
 
 
     return  x[0] ===  1.5
-        && x[1] ===  "ALUMNOS"
+        && x[1] ===  'ALUMNOS'
         && x[2] instanceof Date
         && typeof x[3] === "number"
         && typeof x[4] === "object"
